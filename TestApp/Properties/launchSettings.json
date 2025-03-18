@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Rob\\Documents\\DSO1102"
+    }
+  }
+}

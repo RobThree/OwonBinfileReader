@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<langversion>latest</langversion>
+		<EnableNETAnalyzers>true</EnableNETAnalyzers>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<Title>Provides a simple way to read OWON oscilloscope .bin files</Title>
+		<Authors>RobIII</Authors>
+		<Company>Devcorner.nl</Company>
+		<Description>Provides a simple way to read OWON's bin files (*.bin) produced by OWON (and HANMATEK) oscilloscopes</Description>
+		<Copyright>(C) 2025 Rob Janssen</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>owon;hanmatek;bin;oscilloscope;data;csv</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/RobThree/OWONBinfileReader.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/RobThree/OWONBinfileReader</PackageProjectUrl>
+		<PackageIcon>logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PolySharp" Version="1.15.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Linq.Async" Version="6.0.1" />
+		<PackageReference Include="System.Memory" Version="4.6.0" />
+		<PackageReference Include="System.Text.Json" Version="9.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

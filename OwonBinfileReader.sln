@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwonBinfileReader", "OwonBinfileReader\OwonBinfileReader.csproj", "{D0871D65-E7A1-4C02-9DAC-F27CC580749E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{0276A192-CF67-4CAD-B44F-F5FFBBC9E58E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0871D65-E7A1-4C02-9DAC-F27CC580749E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0871D65-E7A1-4C02-9DAC-F27CC580749E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0871D65-E7A1-4C02-9DAC-F27CC580749E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0871D65-E7A1-4C02-9DAC-F27CC580749E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0276A192-CF67-4CAD-B44F-F5FFBBC9E58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0276A192-CF67-4CAD-B44F-F5FFBBC9E58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0276A192-CF67-4CAD-B44F-F5FFBBC9E58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0276A192-CF67-4CAD-B44F-F5FFBBC9E58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1A9D309-78D1-4CE7-8650-FEA07C5BECC7}
+	EndGlobalSection
+EndGlobal
