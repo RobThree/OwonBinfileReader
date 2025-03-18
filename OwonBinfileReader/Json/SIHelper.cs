@@ -41,11 +41,11 @@ internal static class SIHelper
                         "G" => result * 1e9d,
                         "T" => result * 1e12d,
                         "P" => result * 1e15d,
-                        _ => throw new Exception($"Unknown SI prefix '{siprefix}'")
+                        _ => throw new ArgumentException($"Unknown SI prefix '{siprefix}'")
                     };
                 }
             }
         }
-        throw new Exception($"Unable to parse SI value '{value}'");
+        throw new ArgumentException($"Unable to parse SI value '{value}'");
     }
 }

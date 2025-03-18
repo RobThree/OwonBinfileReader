@@ -28,12 +28,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>$(AssemblyName).Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.3" />
 		<PackageReference Include="PolySharp" Version="1.15.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="System.Linq.Async" Version="6.0.1" />
-		<PackageReference Include="System.Memory" Version="4.6.0" />
+		<PackageReference Include="System.Memory" Version="4.6.1" />
 		<PackageReference Include="System.Text.Json" Version="9.0.3" />
 	</ItemGroup>
 
