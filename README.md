@@ -2,7 +2,7 @@
 
 This is a simple library, available as [NuGet package](https://www.nuget.org/packages/OwonBinfileReader/), to read OWON oscilloscope binfiles. Most of the code is based on reverse engineering and guestimating so don't use this to build a nuclear powerplant or send people into space with!
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/RobThree/OwonBinfileReader/test.yml?branch=master&style=flat-square) [![Nuget version](https://img.shields.io/nuget/v/OwonBinfileReader.svg?style=flat-square)](https://www.nuget.org/packages/OwonBinfileReader/)
+![Build Status](https://img.shields.io/github/actions/workflow/status/RobThree/OwonBinfileReader/test.yml?branch=main&style=flat-square) [![Nuget version](https://img.shields.io/nuget/v/OwonBinfileReader.svg?style=flat-square)](https://www.nuget.org/packages/OwonBinfileReader/)
 
 ## Usage
 ```c#
