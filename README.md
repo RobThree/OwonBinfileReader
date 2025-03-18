@@ -133,11 +133,11 @@ An example of the JSON contained in this file might be:
 }
 ```
 
-The actual measurement is each 16 bit value × (CurrentRatio / CurrentRate).
+The actual measurement is each 16 bit value Ã— (CurrentRatio / CurrentRate).
 
 ## Normalization
 
-This library will normalize values to the base unit. So values in `mV` will be converted to `V`, values in `µs` will be converted to `s`, etc. Where possible values are parsed to enums (e.g. `Coupling` or `Triggermode`), `bools` for `ON` / `OFF` values, timespans etc. Values are represented in the `double` datatype.
+This library will normalize values to the base unit. So values in `mV` will be converted to `V`, values in `Âµs` will be converted to `s`, etc. Where possible values are parsed to enums (e.g. `Coupling` or `Triggermode`), `bools` for `ON` / `OFF` values, timespans etc. Values are represented in the `double` datatype.
 
 ## Attribution
 
