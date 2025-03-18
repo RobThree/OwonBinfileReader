@@ -141,6 +141,10 @@ The actual measurement is each 16 bit value × (CurrentRatio / CurrentRate).
 
 This library will normalize values to the base unit. So values in `mV` will be converted to `V`, values in `µs` will be converted to `s`, etc. Where possible values are parsed to enums (e.g. `Coupling` or `Triggermode`), `bools` for `ON` / `OFF` values, timespans etc. Values are represented in the `double` datatype.
 
+## TestApp
+
+This repository contains a [TestApp](TestApp) which is a simple console application to demonstrate the library. It scans given directory / directories and reads the binfiles contained and outputs (some of) the metadata to the console and also converts the file into a CSV file.
+
 ## Attribution
 
 The logo is composed of the following images:
