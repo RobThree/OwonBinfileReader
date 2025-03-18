@@ -23,6 +23,8 @@ For now this library has only been tested with the `Hanmatek DSO1102` which is a
 
 ## File format
 
+The following is a description of the file format as I have reverse engineered it. The file format is a binary file with the following structure:
+
 Offset | Bytes | Value | Meaning
 ---|---|---|---
 0 | 6 | `SPBXDS` | Magic header (might be `SPBX` + `DS` where `DS` has some meaning)
